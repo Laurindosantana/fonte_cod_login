@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--mentoria pagina-login https://www.youtube.com/watch?v=nU2Lpy79Q3M&t=8s-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginJS</title>
+    <link rel="stylesheet" href="css/script.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+
+<body id="login">
+    <div class="container">
+        <div class="card">
+            <h1>
+                Entrar
+            </h1>
+
+            <div id="msgError"></div>
+
+            <div class="label">
+                <input type="text" id="usuario" placeholder="" required>
+                <label id="userLabel" for="usuario">Usuario</label>
+            </div>
+            <div class="label">
+                <input type="password" id="senha" placeholder="" required>
+                <label id="senhaLabel" for="senha">Senha</label>
+                <i class="bi bi-eye-fill" onclick="mostrarSenha()"></i>
+            </div>
+            <div class="justinfy-center">
+                <button onclick="entrar()">
+                    Entrar
+                </button>
+            </div>
+            <div class="justinfy-center">
+                <hr>
+            </div>
+            <div class="justinfy-center">
+                <p>
+                    Não tem conta?
+                </p>
+                <a href="pag_cadastro.html">Cadastre-se </a>
+            </div>
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+
+</html>
